@@ -22,8 +22,9 @@ namespace Vidly
             bundles.Add(new Bundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
 
+            // check this link for more themes: https://bootswatch.com
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/bootstrap-cosmo.css",
                       "~/Content/site.css"));
         }
     }

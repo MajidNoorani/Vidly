@@ -15,7 +15,10 @@ namespace Vidly
 
             routes.MapRoute(
                 name: "Default",
-                url: "{controller}/{action}/{id}",
+                url: "{controller}/{action}/{id}", // Movies/edit/1
+                // defaults specifies the default behavior when none of the above is given
+                // for example: if no controler is given, home page will be loaded
+                // or if the action is ommited, Controller.Index will be called
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
         }

@@ -1,2 +1,0 @@
-# Vidly
-Learning .NetMVC 
